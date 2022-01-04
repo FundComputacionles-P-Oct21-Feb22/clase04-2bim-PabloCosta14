@@ -3,8 +3,10 @@
 3.      tabla, i[0-n]
 4.      valorLimite, i[0-n]
 5.      mensaje, x(200)[{0-9}, {a-z}]
-6.      tabla <-- 3 
-7.      valorLimite <-- 10 
+        Escribir "Ingrese el valor de la tabla a crear"
+6.      Leer tabla 
+        Escribir "Ingrese el valor del limite
+7.      leer valorLimite  
 8.      obtenerTablaMultiplicar(tabla, valorLimite)
 9.      obtenerTablaSuma(tabla, valorLimite)
 10.  fin funcion principal 
